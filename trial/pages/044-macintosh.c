@@ -9,3 +9,4 @@
 /* 7. brew install --cask firefox */
 /* 8. Set up the pipeline: C code to html to blog work flow. I use saait static page generator.*/
 /* 9. Set up custom mail to web domain. */
+/* 10. brew install --casks mactex*/
