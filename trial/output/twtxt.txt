@@ -1,3 +1,4 @@
+2025-10-10T00:00:00Z	Tridiagonal matrices in the finite difference scheme for the solution of a 1D Poisson Equation: https://www.teoyujie.org/043-1d_poisson.html
 2025-10-10T00:00:00Z	Daydreams, TODO, and OKRs: https://www.teoyujie.org/042-todo.html
 2025-10-10T00:00:00Z	Anki generation script: https://www.teoyujie.org/041-anki.html
 2025-10-09T00:00:00Z	Deformation theory, basics: https://www.teoyujie.org/040-deformation.html

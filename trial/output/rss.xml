@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Tridiagonal matrices in the finite difference scheme for the solution of a 1D Poisson Equation</title>
+	<link>https://www.teoyujie.org/043-1d_poisson.html</link>
+	<guid>https://www.teoyujie.org/043-1d_poisson.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>An introduction to the use of tridiagonal matrices in the finite difference scheme for the solution of a 1D Poisson Equation</description>
+</item>
+<item>
 	<title>Daydreams, TODO, and OKRs</title>
 	<link>https://www.teoyujie.org/042-todo.html</link>
 	<guid>https://www.teoyujie.org/042-todo.html</guid>
