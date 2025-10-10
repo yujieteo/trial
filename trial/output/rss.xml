@@ -7,6 +7,22 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Simple naive mark-sweep garbage collector</title>
+	<link>https://www.teoyujie.org/045-gc_mp.html</link>
+	<guid>https://www.teoyujie.org/045-gc_mp.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Following the tutorial from a blog post by Matthew Plant.</description>
+</item>
+<item>
+	<title>Macintosh set up</title>
+	<link>https://www.teoyujie.org/044-macintosh.html</link>
+	<guid>https://www.teoyujie.org/044-macintosh.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Rapid macintosh set up.</description>
+</item>
+<item>
 	<title>Tridiagonal matrices in the finite difference scheme for the solution of a 1D Poisson Equation</title>
 	<link>https://www.teoyujie.org/043-1d_poisson.html</link>
 	<guid>https://www.teoyujie.org/043-1d_poisson.html</guid>
