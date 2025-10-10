@@ -1,19 +1,69 @@
-/*
-The purpose of this C code is simply to convert an existing .c source into .html that is usable
-with `saait` as a static site generator. Comments are converted directly into paragraphs of text.
-The code is formatted into code blocks. This makes blog writing an orthogonal design. One can simply
-just write a `.c` source file, and then it will furnish the relevant `.html` files and the `.cfg`
-files to use with a static site generator.
-
-One can run a one liner gcc command in the base `trial` directory to generate all the `.html` files, as well as any missing `.cfg` files.
-*/
-
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
 #include <libgen.h>
-/* This is to verify the status of the configuration file.*/
-#include <sys/stat.h> 
+#include <sys/stat.h>
+
+/* Dynamic buffer for code blocks */
+typedef struct {
+    char *data;
+    size_t len;
+    size_t cap;
+} CodeBuffer;
+
+int ensure_capacity(CodeBuffer *buf, size_t needed) {
+    if (buf->cap >= needed) return 0;
+    size_t newcap = (buf->cap == 0) ? 512 : buf->cap * 2;
+    while (newcap < needed) newcap *= 2;
+    char *p = realloc(buf->data, newcap);
+    if (!p) return -1;
+    buf->data = p;
+    buf->cap = newcap;
+    return 0;
+}
+
+int append_str(CodeBuffer *buf, const char *s) {
+    size_t sl = strlen(s);
+    if (ensure_capacity(buf, buf->len + sl + 1)) return -1;
+    memcpy(buf->data + buf->len, s, sl);
+    buf->len += sl;
+    buf->data[buf->len] = '\0';
+    return 0;
+}
+
+int append_char_escaped(CodeBuffer *buf, int ch) {
+    if (ch == '<') return append_str(buf, "&lt;");
+    if (ch == '>') return append_str(buf, "&gt;");
+    if (ch == '&') return append_str(buf, "&amp;");
+    if (ensure_capacity(buf, buf->len + 2)) return -1;
+    buf->data[buf->len++] = (char)ch;
+    buf->data[buf->len] = '\0';
+    return 0;
+}
+
+bool has_non_whitespace(const CodeBuffer *buf) {
+    for (size_t i = 0; i < buf->len; ++i) {
+        char c = buf->data[i];
+        if (c != ' ' && c != '\t' && c != '\r' && c != '\n') return true;
+    }
+    return false;
+}
+
+void start_code(CodeBuffer *buf) {
+    buf->len = 0;
+    if (buf->data) buf->data[0] = '\0';
+}
+
+void flush_code(FILE *out, CodeBuffer *buf) {
+    if (buf->len > 0 && has_non_whitespace(buf)) {
+        fprintf(out, "<pre><code>");
+        fwrite(buf->data, 1, buf->len, out);
+        fprintf(out, "</code></pre>\n");
+    }
+    buf->len = 0;
+    if (buf->data) buf->data[0] = '\0';
+}
 
 int main(int argc, char *argv[]) {
     if (argc < 3) {
@@ -41,47 +91,42 @@ int main(int argc, char *argv[]) {
     char cfg_file[256];
     snprintf(cfg_file, sizeof(cfg_file), "%s/%s.cfg", html_dir, cfg_name);
 
-    /* Check if there is an existing configuration file `.cfg`. */
     struct stat st;
     bool cfg_exists = (stat(cfg_file, &st) == 0);
 
     FILE *in = fopen(input_file, "r");
     FILE *out = fopen(html_file, "w");
     FILE *cfg = cfg_exists ? NULL : fopen(cfg_file, "w");
-
-    /* Check if there are any failed conditions here.*/
     if (!in || !out || (!cfg_exists && !cfg)) { perror("File open"); return 1; }
-    
-    /* Chain of if-elif-else to put in code blocks.*/
+
     int c;
     bool in_comment = false, block_comment = false, in_code = false;
+    CodeBuffer codebuf = {NULL, 0, 0};
+
     while ((c = fgetc(in)) != EOF) {
         if (!in_comment) {
             if (c == '/') {
                 int next = fgetc(in);
                 if (next == '/') {
-                    if (in_code) { fprintf(out, "</code></pre>\n"); in_code = false; }
+                    flush_code(out, &codebuf);
                     in_comment = true; block_comment = false;
                     fprintf(out, "<p>");
                     continue;
                 } else if (next == '*') {
-                    if (in_code) { fprintf(out, "</code></pre>\n"); in_code = false; }
+                    flush_code(out, &codebuf);
                     in_comment = true; block_comment = true;
                     fprintf(out, "<p>");
                     continue;
                 } else {
-                    if (!in_code) { fprintf(out, "<pre><code>"); in_code = true; }
-                    fputc(c, out);
+                    if (!in_code) { start_code(&codebuf); in_code = true; }
+                    append_char_escaped(&codebuf, c);
                     ungetc(next, in);
                 }
             } else {
-                if (!in_code) { fprintf(out, "<pre><code>"); in_code = true; }
-                if (c == '<') fprintf(out, "&lt;");
-                else if (c == '>') fprintf(out, "&gt;");
-                else if (c == '&') fprintf(out, "&amp;");
-                else fputc(c, out);
+                if (!in_code) { start_code(&codebuf); in_code = true; }
+                append_char_escaped(&codebuf, c);
             }
-        } else {
+        } else { /* in_comment */
             if (block_comment) {
                 if (c == '*') {
                     int next = fgetc(in);
@@ -95,12 +140,8 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    if (in_code) fprintf(out, "</code></pre>\n");
+    flush_code(out, &codebuf);
     if (in_comment) fprintf(out, "</p>\n");
-
-    /* This creates the .cfg file that I wanted to generate with `saait`
-    as a static site generator.
-    */
 
     if (!cfg_exists) {
         fprintf(cfg, "filename = %s\n", html_base);
@@ -114,6 +155,7 @@ int main(int argc, char *argv[]) {
 
     fclose(in);
     fclose(out);
+    free(codebuf.data);
 
     printf("Generated %s%s\n", html_file, cfg_exists ? "" : " and new .cfg");
     return 0;
