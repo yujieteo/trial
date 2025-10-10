@@ -6,3 +6,341 @@
 	<title>Yu Jie&#39;s Website</title>
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
+<item>
+	<title>Daydreams, TODO, and OKRs</title>
+	<link>https://www.teoyujie.org/042-todo.html</link>
+	<guid>https://www.teoyujie.org/042-todo.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Ideas that I want to todo.</description>
+</item>
+<item>
+	<title>Anki generation script</title>
+	<link>https://www.teoyujie.org/041-anki.html</link>
+	<guid>https://www.teoyujie.org/041-anki.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Generates anki from my blog posts.</description>
+</item>
+<item>
+	<title>Deformation theory, basics</title>
+	<link>https://www.teoyujie.org/040-deformation.html</link>
+	<guid>https://www.teoyujie.org/040-deformation.html</guid>
+	<dc:date>2025-10-09T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Basics of deformation theory assuming background in algebraic geometry.</description>
+</item>
+<item>
+	<title>Notes on ontology from &quot;In the Cells of the Eggplant&quot;</title>
+	<link>https://www.teoyujie.org/039-eggplant.html</link>
+	<guid>https://www.teoyujie.org/039-eggplant.html</guid>
+	<dc:date>2025-10-09T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some notes on the interlude on ontological remodelling</description>
+</item>
+<item>
+	<title>Motivating the Lefschetz fixed point formula</title>
+	<link>https://www.teoyujie.org/038-lefschetz.html</link>
+	<guid>https://www.teoyujie.org/038-lefschetz.html</guid>
+	<dc:date>2025-10-09T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Motivating a fixed point formula that is quite mysterious to me.</description>
+</item>
+<item>
+	<title>From the Grothendieck topology to stacks</title>
+	<link>https://www.teoyujie.org/037-site.html</link>
+	<guid>https://www.teoyujie.org/037-site.html</guid>
+	<dc:date>2025-10-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A rapid definition of stacks</description>
+</item>
+<item>
+	<title>Elliptic curves, modular forms</title>
+	<link>https://www.teoyujie.org/036-elliptic.html</link>
+	<guid>https://www.teoyujie.org/036-elliptic.html</guid>
+	<dc:date>2025-10-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some curiosities on elliptic curves and modular forms</description>
+</item>
+<item>
+	<title>Metrics in regret analysis</title>
+	<link>https://www.teoyujie.org/035-regret.html</link>
+	<guid>https://www.teoyujie.org/035-regret.html</guid>
+	<dc:date>2025-10-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some metrics in regret analysis</description>
+</item>
+<item>
+	<title>Groups, group actions</title>
+	<link>https://www.teoyujie.org/034-groups.html</link>
+	<guid>https://www.teoyujie.org/034-groups.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Basic group theory review</description>
+</item>
+<item>
+	<title>Ultrafilters, ultraproducts, Makkai duality and conceptual completeness</title>
+	<link>https://www.teoyujie.org/033-ultrafilters.html</link>
+	<guid>https://www.teoyujie.org/033-ultrafilters.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Remarks on the syntax semantics duality</description>
+</item>
+<item>
+	<title>Notes on the Haar measure, and locally compact abelian groups</title>
+	<link>https://www.teoyujie.org/032-haar.html</link>
+	<guid>https://www.teoyujie.org/032-haar.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some remarks on the ubiquity of the Haar measure.</description>
+</item>
+<item>
+	<title>Preliminaries on Plancherel and its connection to (Langlands) duality and representation theory</title>
+	<link>https://www.teoyujie.org/031-plancherel.html</link>
+	<guid>https://www.teoyujie.org/031-plancherel.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some basics on the Plancherel formula</description>
+</item>
+<item>
+	<title>The uncertainty principle, and duality between parameters and functionals</title>
+	<link>https://www.teoyujie.org/030-functional_duality.html</link>
+	<guid>https://www.teoyujie.org/030-functional_duality.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Duality between time and frequency as traditionally understood</description>
+</item>
+<item>
+	<title>Dimensions and its role in geometry and algebra</title>
+	<link>https://www.teoyujie.org/029-dimension.html</link>
+	<guid>https://www.teoyujie.org/029-dimension.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Dimension theory recap</description>
+</item>
+<item>
+	<title>From poset lattice theory to categories</title>
+	<link>https://www.teoyujie.org/028-poset_category.html</link>
+	<guid>https://www.teoyujie.org/028-poset_category.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Analogies from the lattice theory of posets into category theory</description>
+</item>
+<item>
+	<title>The meaning of spectrum in functional and harmonic analysis</title>
+	<link>https://www.teoyujie.org/027-functional.html</link>
+	<guid>https://www.teoyujie.org/027-functional.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Review of spectrum in the context of analysis.</description>
+</item>
+<item>
+	<title>Integral transforms (Laplace, Mellin), and convolutions</title>
+	<link>https://www.teoyujie.org/026-integral_transforms.html</link>
+	<guid>https://www.teoyujie.org/026-integral_transforms.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some notes on integral transforms</description>
+</item>
+<item>
+	<title>Implications of Baire spaces</title>
+	<link>https://www.teoyujie.org/025-baire.html</link>
+	<guid>https://www.teoyujie.org/025-baire.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>The Baire category theorem has many consequences, some are discussed here.</description>
+</item>
+<item>
+	<title>Vector bundles, fibrations, and K-theory</title>
+	<link>https://www.teoyujie.org/024-vector_bundles.html</link>
+	<guid>https://www.teoyujie.org/024-vector_bundles.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Thinking about vector bundles and its place in K-theory</description>
+</item>
+<item>
+	<title>Bundles, in its generality</title>
+	<link>https://www.teoyujie.org/023-bundle.html</link>
+	<guid>https://www.teoyujie.org/023-bundle.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Thinking about bundles and their applications</description>
+</item>
+<item>
+	<title>Derived categories for the mechanical engineer (joke!)</title>
+	<link>https://www.teoyujie.org/022-derived_category.html</link>
+	<guid>https://www.teoyujie.org/022-derived_category.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some notes on derived categories that I learnt from Richard Thomas</description>
+</item>
+<item>
+	<title>Introduction to Brauer groups and Azumaya algebras</title>
+	<link>https://www.teoyujie.org/021-brauer.html</link>
+	<guid>https://www.teoyujie.org/021-brauer.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some stuff I learnt about Brauer groups from Jacob Lurie.</description>
+</item>
+<item>
+	<title>Remarks on the p-group fixed point theorem</title>
+	<link>https://www.teoyujie.org/020-pgroup_fixed.html</link>
+	<guid>https://www.teoyujie.org/020-pgroup_fixed.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>This is a useful theorem I learnt from Qiaochu Yuan</description>
+</item>
+<item>
+	<title>Revisiting linear algebra</title>
+	<link>https://www.teoyujie.org/019-linalg.html</link>
+	<guid>https://www.teoyujie.org/019-linalg.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>The topic that is most revisited.</description>
+</item>
+<item>
+	<title>Category theory, enrichment, in context of algebra</title>
+	<link>https://www.teoyujie.org/018-category.html</link>
+	<guid>https://www.teoyujie.org/018-category.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A review of (enriched) category theory and its place in algebra</description>
+</item>
+<item>
+	<title>Probability: philosophy, measure, information</title>
+	<link>https://www.teoyujie.org/017-probtheory.html</link>
+	<guid>https://www.teoyujie.org/017-probtheory.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>An introduction to probability in relation to other fields.</description>
+</item>
+<item>
+	<title>Number theory, for beginners like me</title>
+	<link>https://www.teoyujie.org/016-numbers.html</link>
+	<guid>https://www.teoyujie.org/016-numbers.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A review of number theory for myself.</description>
+</item>
+<item>
+	<title>K-theory in algebra and geometry, and homotopy theory</title>
+	<link>https://www.teoyujie.org/015-ktheory.html</link>
+	<guid>https://www.teoyujie.org/015-ktheory.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A review of K-theory</description>
+</item>
+<item>
+	<title>Counting, graphs, and optimisation</title>
+	<link>https://www.teoyujie.org/014-combinatorics.html</link>
+	<guid>https://www.teoyujie.org/014-combinatorics.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A quick view of combinatorics</description>
+</item>
+<item>
+	<title>A primer on measure theory</title>
+	<link>https://www.teoyujie.org/013-measure.html</link>
+	<guid>https://www.teoyujie.org/013-measure.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some quick results in measure theory in the context of probability theory</description>
+</item>
+<item>
+	<title>Homotopy, topology, and homological algebra</title>
+	<link>https://www.teoyujie.org/012-algtop.html</link>
+	<guid>https://www.teoyujie.org/012-algtop.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>An introduction to algebraic topology</description>
+</item>
+<item>
+	<title>Existence and uniqueness of (weak) solutions to  partial differential equations</title>
+	<link>https://www.teoyujie.org/011-pde.html</link>
+	<guid>https://www.teoyujie.org/011-pde.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A review of partial differential equations.</description>
+</item>
+<item>
+	<title>Algebraic geometry, varieties, schemes, scheaves</title>
+	<link>https://www.teoyujie.org/010-alggeo.html</link>
+	<guid>https://www.teoyujie.org/010-alggeo.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>An introduction to the various players in algebraic geometry</description>
+</item>
+<item>
+	<title>A tour of commutative algebra</title>
+	<link>https://www.teoyujie.org/009-commutative.html</link>
+	<guid>https://www.teoyujie.org/009-commutative.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Commutative algebra introduction</description>
+</item>
+<item>
+	<title>A fixed point theorem of Rogers for computation</title>
+	<link>https://www.teoyujie.org/008-riceroger.html</link>
+	<guid>https://www.teoyujie.org/008-riceroger.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Several remarks on computation theory using Rogers fixed point theorem.</description>
+</item>
+<item>
+	<title>Galois theory, cohomology, and fields</title>
+	<link>https://www.teoyujie.org/007-galois.html</link>
+	<guid>https://www.teoyujie.org/007-galois.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some remarks on Galois theory.</description>
+</item>
+<item>
+	<title>An introduction to linear representations</title>
+	<link>https://www.teoyujie.org/006-representation.html</link>
+	<guid>https://www.teoyujie.org/006-representation.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A representation theory introductions.</description>
+</item>
+<item>
+	<title>Distributions and generalised functions</title>
+	<link>https://www.teoyujie.org/distributions.html</link>
+	<guid>https://www.teoyujie.org/distributions.html</guid>
+	<dc:date>2025-10-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Several remarks on distribution theory</description>
+</item>
+<item>
+	<title>Yoneda yoga</title>
+	<link>https://www.teoyujie.org/yoneda.html</link>
+	<guid>https://www.teoyujie.org/yoneda.html</guid>
+	<dc:date>2025-10-06T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>continually updated reflections on the Yoneda yoga</description>
+</item>
+<item>
+	<title>The nature of groundless confidence</title>
+	<link>https://www.teoyujie.org/groundless.html</link>
+	<guid>https://www.teoyujie.org/groundless.html</guid>
+	<dc:date>2025-10-06T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Some remarks on June Huh for groundless confidence</description>
+</item>
+<item>
+	<title>Laziness in Haskell</title>
+	<link>https://www.teoyujie.org/lazyhaskell.html</link>
+	<guid>https://www.teoyujie.org/lazyhaskell.html</guid>
+	<dc:date>2025-10-06T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Material I have learnt about laziness in Haskell.</description>
+</item>
+<item>
+	<title>Welcome</title>
+	<link>https://www.teoyujie.org/welcome.html</link>
+	<guid>https://www.teoyujie.org/welcome.html</guid>
+	<dc:date>2025-10-06T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Coming back to the blog</description>
+</item>
+</channel>
+</rss>
