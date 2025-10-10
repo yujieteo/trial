@@ -101,7 +101,7 @@ int main(int argc, char *argv[]) {
     /* This creates the .cfg file that I wanted to generate with `saait`
     as a static site generator.
     */
-
+   
     if (!cfg_exists) {
         fprintf(cfg, "filename = %s\n", html_base);
         fprintf(cfg, "title = Latest blog post\n");
