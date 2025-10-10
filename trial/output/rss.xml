@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Anki generation script</title>
+	<link>https://www.teoyujie.org/041-anki.html</link>
+	<guid>https://www.teoyujie.org/041-anki.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Generates anki from my blog posts.</description>
+</item>
+<item>
 	<title>Deformation theory, basics</title>
 	<link>https://www.teoyujie.org/040-deformation.html</link>
 	<guid>https://www.teoyujie.org/040-deformation.html</guid>
