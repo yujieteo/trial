@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Stochastic gradient descent as implemented in pytorch</title>
+	<link>https://www.teoyujie.org/046-sgd.html</link>
+	<guid>https://www.teoyujie.org/046-sgd.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>A review of stochastic gradient descent and its relation to damping as per the pytorch implementation.</description>
+</item>
+<item>
 	<title>Simple naive mark-sweep garbage collector</title>
 	<link>https://www.teoyujie.org/045-gc_mp.html</link>
 	<guid>https://www.teoyujie.org/045-gc_mp.html</guid>
