@@ -1,5 +1,5 @@
 .vscode/
 *.o
 *.html
-*.cfg
 furnish
+.DS_Store
