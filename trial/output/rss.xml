@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Daydreams, TODO, and OKRs</title>
+	<link>https://www.teoyujie.org/042-todo.html</link>
+	<guid>https://www.teoyujie.org/042-todo.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Ideas that I want to todo.</description>
+</item>
+<item>
 	<title>Anki generation script</title>
 	<link>https://www.teoyujie.org/041-anki.html</link>
 	<guid>https://www.teoyujie.org/041-anki.html</guid>

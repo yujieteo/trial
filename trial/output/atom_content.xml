@@ -7,6 +7,36 @@
 	<id>https://www.teoyujie.org/atom_content.xml</id>
 	<link rel="self" type="application/atom+xml" href="https://www.teoyujie.org/atom_content.xml" />
 <entry>
+	<title>Daydreams, TODO, and OKRs</title>
+	<link rel="alternate" type="text/html" href="https://www.teoyujie.org/042-todo.html" />
+	<id>https://www.teoyujie.org/042-todo.html</id>
+	<updated>2025-10-10T00:00:00Z</updated>
+	<published>2025-10-10T00:00:00Z</published>
+	<author>
+		<name>yujie</name>
+		<uri>https://www.teoyujie.org</uri>
+	</author>
+	<summary>Ideas that I want to todo.</summary>
+	<content type="html"><![CDATA[<h1>Daydreams, TODO, and OKRs</h1>
+	<p><strong>Last modification on </strong> <time>2025-10-10</time></p>
+	<p> Several ideas I want to implement. These are to be amended in OKRs. </p>
+<p> 1. Clean up my remaining notes. </p>
+<p> 2. Add daydreams, questions. </p>
+<p> 3. Design an implement a full stack web project, end to end CRUD app with structured API. </p>
+<p> 4. Infrastructure / DevOps Automation Project. </p>
+<p> 5. Static analyser. </p>
+<p> 6. Terraform, Docker, Shell Scripting DevOps Project. </p>
+<p> 7. Python notebooks + containerisation + clean up my tinygrad notebook folder. </p>
+<p> 8. Algorithms recap. Nand2tetris. </p>
+<p> 9. Generic parametric study code, I used this at work, written in C#. </p>
+<p> 10. Proofs in agda. </p>
+<p> 11. Multiarm bandit implementations, PDEs, simulated annealing, heaviside case study for distribution theory. </p>
+<p> 12. Context tree weighting project. </p>
+<p> 13. Probability notebooks. </p>
+<p> 14. Reading. </p>
+]]></content>
+</entry>
+<entry>
 	<title>Anki generation script</title>
 	<link rel="alternate" type="text/html" href="https://www.teoyujie.org/041-anki.html" />
 	<id>https://www.teoyujie.org/041-anki.html</id>
