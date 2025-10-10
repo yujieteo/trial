@@ -1,0 +1,10 @@
+trials
+-------
+
+Trials, numerical experiments: the purpose of this is to write up code `.c` orthogonally to be converted into `.html`, and then into blog posts. I have decided to write most of the numerical code in `.c` for portability and convenience.
+
+`furnish`, turns C code snippets into .html articles: 
+`make runall DIR=./trial/pages`
+`gcc furnish.c -o tmp_furnish_exec && for f in ./trial/pages/*.c; do ./tmp_furnish_exec "$f" "${f%.c}.html"; done && rm tmp_furnish_exec`
+
+Workflow, orthogonal format: (1) write C code with all the math you want to share; (2) produce `.html` showing the `.c` code so the C code does everything; (3) produce the anki deck from the C code snippet as well, `./anki.o ./trial/pages/`. The anki .tsv will then be reviewed, so I can review what I have learnt using anki.

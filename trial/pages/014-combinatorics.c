@@ -1,0 +1,3 @@
+/* Bezout's theorem, motivates spaces in combinatorics:  curves d and e of degree d and e in complex projective plane CP^2 intersects at exactly d * e points. The correct definition of intersection and the proper setting in complex projective space of exactly needed for combinatorics since in projective space, any two lines intersect. */
+
+/* Bipartite graph, motivates Mantell's theorem:  for N vertex graph, maximum number of edges without forming triangles is n^2/4. The bipartite graph is the extreme example of this. */

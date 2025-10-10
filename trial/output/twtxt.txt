@@ -1,0 +1,40 @@
+2025-10-09T00:00:00Z	Deformation theory, basics: https://www.teoyujie.org/040-deformation.html
+2025-10-09T00:00:00Z	Notes on ontology from &quot;In the Cells of the Eggplant&quot;: https://www.teoyujie.org/039-eggplant.html
+2025-10-09T00:00:00Z	Motivating the Lefschetz fixed point formula: https://www.teoyujie.org/038-lefschetz.html
+2025-10-08T00:00:00Z	From the Grothendieck topology to stacks: https://www.teoyujie.org/037-site.html
+2025-10-08T00:00:00Z	Elliptic curves, modular forms: https://www.teoyujie.org/036-elliptic.html
+2025-10-08T00:00:00Z	Metrics in regret analysis: https://www.teoyujie.org/035-regret.html
+2025-10-07T00:00:00Z	Groups, group actions: https://www.teoyujie.org/034-groups.html
+2025-10-07T00:00:00Z	Ultrafilters, ultraproducts, Makkai duality and conceptual completeness: https://www.teoyujie.org/033-ultrafilters.html
+2025-10-07T00:00:00Z	Notes on the Haar measure, and locally compact abelian groups: https://www.teoyujie.org/032-haar.html
+2025-10-07T00:00:00Z	Preliminaries on Plancherel and its connection to (Langlands) duality and representation theory: https://www.teoyujie.org/031-plancherel.html
+2025-10-07T00:00:00Z	The uncertainty principle, and duality between parameters and functionals: https://www.teoyujie.org/030-functional_duality.html
+2025-10-07T00:00:00Z	Dimensions and its role in geometry and algebra: https://www.teoyujie.org/029-dimension.html
+2025-10-07T00:00:00Z	From poset lattice theory to categories: https://www.teoyujie.org/028-poset_category.html
+2025-10-07T00:00:00Z	The meaning of spectrum in functional and harmonic analysis: https://www.teoyujie.org/027-functional.html
+2025-10-07T00:00:00Z	Integral transforms (Laplace, Mellin), and convolutions: https://www.teoyujie.org/026-integral_transforms.html
+2025-10-07T00:00:00Z	Implications of Baire spaces: https://www.teoyujie.org/025-baire.html
+2025-10-07T00:00:00Z	Vector bundles, fibrations, and K-theory: https://www.teoyujie.org/024-vector_bundles.html
+2025-10-07T00:00:00Z	Bundles, in its generality: https://www.teoyujie.org/023-bundle.html
+2025-10-07T00:00:00Z	Derived categories for the mechanical engineer (joke!): https://www.teoyujie.org/022-derived_category.html
+2025-10-07T00:00:00Z	Introduction to Brauer groups and Azumaya algebras: https://www.teoyujie.org/021-brauer.html
+2025-10-07T00:00:00Z	Remarks on the p-group fixed point theorem: https://www.teoyujie.org/020-pgroup_fixed.html
+2025-10-07T00:00:00Z	Revisiting linear algebra: https://www.teoyujie.org/019-linalg.html
+2025-10-07T00:00:00Z	Category theory, enrichment, in context of algebra: https://www.teoyujie.org/018-category.html
+2025-10-07T00:00:00Z	Probability: philosophy, measure, information: https://www.teoyujie.org/017-probtheory.html
+2025-10-07T00:00:00Z	Number theory, for beginners like me: https://www.teoyujie.org/016-numbers.html
+2025-10-07T00:00:00Z	K-theory in algebra and geometry, and homotopy theory: https://www.teoyujie.org/015-ktheory.html
+2025-10-07T00:00:00Z	Counting, graphs, and optimisation: https://www.teoyujie.org/014-combinatorics.html
+2025-10-07T00:00:00Z	A primer on measure theory: https://www.teoyujie.org/013-measure.html
+2025-10-07T00:00:00Z	Homotopy, topology, and homological algebra: https://www.teoyujie.org/012-algtop.html
+2025-10-07T00:00:00Z	Existence and uniqueness of (weak) solutions to  partial differential equations: https://www.teoyujie.org/011-pde.html
+2025-10-07T00:00:00Z	Algebraic geometry, varieties, schemes, scheaves: https://www.teoyujie.org/010-alggeo.html
+2025-10-07T00:00:00Z	A tour of commutative algebra: https://www.teoyujie.org/009-commutative.html
+2025-10-07T00:00:00Z	A fixed point theorem of Rogers for computation: https://www.teoyujie.org/008-riceroger.html
+2025-10-07T00:00:00Z	Galois theory, cohomology, and fields: https://www.teoyujie.org/007-galois.html
+2025-10-07T00:00:00Z	An introduction to linear representations: https://www.teoyujie.org/006-representation.html
+2025-10-07T00:00:00Z	Distributions and generalised functions: https://www.teoyujie.org/distributions.html
+2025-10-06T00:00:00Z	Yoneda yoga: https://www.teoyujie.org/yoneda.html
+2025-10-06T00:00:00Z	The nature of groundless confidence: https://www.teoyujie.org/groundless.html
+2025-10-06T00:00:00Z	Laziness in Haskell: https://www.teoyujie.org/lazyhaskell.html
+2025-10-06T00:00:00Z	Welcome: https://www.teoyujie.org/welcome.html

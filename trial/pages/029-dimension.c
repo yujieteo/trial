@@ -1,0 +1,25 @@
+/* Krull dimension, supremum of length of chains of prime ideals, in schemes with local ring:  Krull dimension of a ring is the supremum of the lengths of all chains of prime ideals. For a scheme, its dimension is the Krull dimension of its local rings. */
+/* Dimension, dimension of a scheme:  dimension of a scheme is the supremum of the dimensions of all its local rings. */
+/* Codimension, difference in dimension or smallness of subvarieties:  codimension of a subvariety in an algebraic variety is the difference between their dimensions. It's an important measure of how "small" a subvariety is. */
+/* Dimension, chain of primes and chain of prime ideals:  dimension of a scheme is defined by a chain of prime ideals. A chain of prime ideals is a sequence of prime ideals p_0 in p_1 in... p_m */
+/* Dimension, Krull's principal ideal theorem for Noetherian ring and the height of a prime ideal:  for a Noetherian ring, the height of a prime ideal is at most the number of generators of an ideal contained in it. Codimension is geometric, corresponds to the algebraic concept the height of a prime ideal. */
+/* Dimension, visual intuition:  Krull dimension corresponds to the intuitive geometric dimension of an algebraic variety. A variety of dimension 1 is a curve, a variety of dimension 2 is a surface, and so on. */
+/* Dimension, local ring and m-primary ideal:  dimension of a local ring is the minimum number of elements that can generate a m-primary ideal. */
+/* Dimension, homological dimension of a module:  homological dimension of a module is the length of its minimal free resolution. This provides a way to measure the complexity of a module. */
+/* Dimension, global dimension of projective dimensions of all modules:  global dimension of a ring is the supremum of the projective dimensions of all modules over that ring. Rings with finite global dimension are often well-behaved. */
+/* Dimension, cohomological dimension of a scheme:  cohomological dimension of a scheme is a measure of its size based on the vanishing of certain cohomology groups. It is related to the topological dimension. */
+/* Dimension, comparison with rank:  Dimension means actual number of dimensions, rank means effective number of dimensions (number of linearly independent columns or rows) */
+/* Codimension, height of prime ideal:  algebraic counterpart of codimension is the height of a prime ideal. For a ring R and a prime ideal p, the height of p, denoted ht(p), is the length of the longest chain of prime ideals contained in p. */
+/* Codimension, visual intuition:  geometric intuition of "how many equations you need to define a subvariety." For example, a point in a 2D plane has codimension 2, which is defined by two equations (x=0,y=0). */
+/* Codimension, subscheme:  closed subscheme Y of a scheme X, the codimension is the minimum of the heights of the prime ideals in the local rings of X that contain the ideal defining Y. */
+/* Codimension, pure codimension of subscheme:  subscheme is of pure codimension if all its irreducible components have the same codimension. */
+/* Codimension, hypersurface:  subscheme defined by a single non-zero function is a hypersurface, and it typically has codimension 1. */
+/* Codimension, size of a subspace: A higher codimension means a "smaller" subspace relative to the larger space. */
+/* Codimension, motivation to define complete intersection of a subvariety:  subvariety is a complete intersection if its codimension is equal to the number of equations needed to define it. */
+/* Codimension, core concept in intersection theory:  core concept in intersection theory, which studies how subvarieties intersect. For example, in a smooth variety, the intersection of two subvarieties of codimensions c1​ and c2​ is expected to have codimension c1 ​+ c2​. */
+/* Codimension, derived subscheme:  derived algebraic geometry, the concept of a subscheme is generalized to a derived subscheme, and its codimension is a measure of the "size" of the subscheme in a homotopical sense. */
+/* Codimension, derived prime ideal:  height of a derived prime ideal in a commutative ring spectrum is a measure of its derived codimension. */
+/* Codimension, etale codimension:  étale codimension of a subscheme is the dimension of the subscheme within the étale topology, which is a finer topology than the Zariski topology. */
+/* Codimension, spectral codimension:  spectral codimension of a subobject in a spectral category is a measure of its "size" in a homotopical sense. */
+/* Codimension, locus of section, codimension of the vanishing locus of section of vector bundle, and Euler classes:  codimension of the vanishing locus of a section of a vector bundle is a key invariant in algebraic geometry, which is computed using the Euler class. */
+/* Codimension, of a singular locus of a scheme and behaviour of singularities:  codimension of a singular locus of a scheme is a measure of how "badly behaved" the singularities are. A singularity of codimension 1 is a relatively mild singularity. */
