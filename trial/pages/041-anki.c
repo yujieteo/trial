@@ -6,7 +6,9 @@
 
 #define OUTFILE "main.tsv"
 #define DECK_NAME "main"
-#define BUF_SIZE 65536  // Large enough for paragraphs
+
+/* The buffer must be large enough for paragraphs. */
+#define BUF_SIZE 65536 
 
 // Check if filename ends with .html
 int is_html(const char *filename) {
@@ -33,7 +35,8 @@ void process_html_file(const char *filepath, FILE *out) {
     char line[4096];
     while (fgets(line, sizeof(line), f)) {
         size_t l = strlen(line);
-        if (buf_len + l >= BUF_SIZE) buf_len = 0; // reset if too large
+        /* Reset the buffer if it is too large. */
+        if (buf_len + l >= BUF_SIZE) buf_len = 0; 
         memcpy(buffer + buf_len, line, l);
         buf_len += l;
         buffer[buf_len] = '\0';
@@ -41,12 +44,14 @@ void process_html_file(const char *filepath, FILE *out) {
         char *p_start;
         while ((p_start = strstr(buffer, "<p>")) != NULL) {
             char *p_end = strstr(p_start, "</p>");
+            /* The paragraph is not complete yet in this case.*/
             if (!p_end) break; // paragraph not complete yet
 
             *p_end = '\0';
-            char *text = p_start + 3; // skip <p>
+            /* Skip the ending characters <p> */
+            char *text = p_start + 3;
 
-            // Find first colon
+            /* Find the first colon, this is how we will generate the Anki deck.*/
             char *sep = strchr(text, ':');
             if (sep) {
                 *sep = '\0';
@@ -55,7 +60,7 @@ void process_html_file(const char *filepath, FILE *out) {
                 fprintf(out, "%s\t%s\n", front, back);
             }
 
-            // Remove processed paragraph from buffer
+            /* Remove the processed paragraph from the buffer.*/
             size_t remaining = buf_len - (p_end + 4 - buffer);
             memmove(buffer, p_end + 4, remaining);
             buf_len = remaining;
@@ -76,7 +81,7 @@ int main(int argc, char *argv[]) {
     FILE *out = fopen(OUTFILE, "w");
     if (!out) { perror(OUTFILE); closedir(d); return 1; }
 
-    // Write Anki header
+    /* Write the Anki header.*/
     fprintf(out, "#separator:tab\n#html:true\n#notetype:Basic\n#deck:%s\n", DECK_NAME);
 
     struct dirent *entry;
