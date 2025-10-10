@@ -1,4 +1,3 @@
-2025-10-10T00:00:00Z	From source code to blog post: https://www.teoyujie.org/042-furnish.html
 2025-10-10T00:00:00Z	Anki generation script: https://www.teoyujie.org/041-anki.html
 2025-10-09T00:00:00Z	Deformation theory, basics: https://www.teoyujie.org/040-deformation.html
 2025-10-09T00:00:00Z	Notes on ontology from &quot;In the Cells of the Eggplant&quot;: https://www.teoyujie.org/039-eggplant.html
