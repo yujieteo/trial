@@ -1,4 +1,4 @@
-/* The original source code is written <a href="www.maplant.com/2020-04-25-Writing-a-Simple-Garbage-Collector-in-C.html">here. </a>
+/* The original source code is written <a href="https://www.maplant.com/2020-04-25-Writing-a-Simple-Garbage-Collector-in-C.html">here. </a>
 The author said the code is not necessarily correct.
 Nevertheless, we will work with what we have. This is a bit out of my depth, but this is a start to roughly know what is important.*/
 /* The simplest malloc uses a linked list of free blocks of memory that can be split up and given out.*/
