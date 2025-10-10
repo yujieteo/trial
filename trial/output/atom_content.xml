@@ -27,9 +27,12 @@
 
 #define OUTFILE "main.tsv"
 #define DECK_NAME "main"
-#define BUF_SIZE 65536  </code></pre>
-<p> Large enough for paragraphs</p>
+
+</code></pre>
+<p> The buffer must be large enough for paragraphs. </p>
 <pre><code>
+#define BUF_SIZE 65536 
+
 </code></pre>
 <p> Check if filename ends with .html</p>
 <pre><code>int is_html(const char *filename) {
@@ -58,25 +61,33 @@
     char line[4096];
     while (fgets(line, sizeof(line), f)) {
         size_t l = strlen(line);
-        if (buf_len + l &gt;= BUF_SIZE) buf_len = 0; </code></pre>
-<p> reset if too large</p>
-<pre><code>        memcpy(buffer + buf_len, line, l);
+        </code></pre>
+<p> Reset the buffer if it is too large. </p>
+<pre><code>
+        if (buf_len + l &gt;= BUF_SIZE) buf_len = 0; 
+        memcpy(buffer + buf_len, line, l);
         buf_len += l;
         buffer[buf_len] = '\0';
 
         char *p_start;
         while ((p_start = strstr(buffer, "&lt;p&gt;")) != NULL) {
             char *p_end = strstr(p_start, "&lt;/p&gt;");
+            </code></pre>
+<p> The paragraph is not complete yet in this case.</p>
+<pre><code>
             if (!p_end) break; </code></pre>
 <p> paragraph not complete yet</p>
 <pre><code>
             *p_end = '\0';
-            char *text = p_start + 3; </code></pre>
-<p> skip <p></p>
-<pre><code>
             </code></pre>
-<p> Find first colon</p>
-<pre><code>            char *sep = strchr(text, ':');
+<p> Skip the ending characters <p> </p>
+<pre><code>
+            char *text = p_start + 3;
+
+            </code></pre>
+<p> Find the first colon, this is how we will generate the Anki deck.</p>
+<pre><code>
+            char *sep = strchr(text, ':');
             if (sep) {
                 *sep = '\0';
                 char *front = trim(text);
@@ -85,8 +96,9 @@
             }
 
             </code></pre>
-<p> Remove processed paragraph from buffer</p>
-<pre><code>            size_t remaining = buf_len - (p_end + 4 - buffer);
+<p> Remove the processed paragraph from the buffer.</p>
+<pre><code>
+            size_t remaining = buf_len - (p_end + 4 - buffer);
             memmove(buffer, p_end + 4, remaining);
             buf_len = remaining;
             buffer[buf_len] = '\0';
@@ -107,8 +119,9 @@ int main(int argc, char *argv[]) {
     if (!out) { perror(OUTFILE); closedir(d); return 1; }
 
     </code></pre>
-<p> Write Anki header</p>
-<pre><code>    fprintf(out, "#separator:tab\n#html:true\n#notetype:Basic\n#deck:%s\n", DECK_NAME);
+<p> Write the Anki header.</p>
+<pre><code>
+    fprintf(out, "#separator:tab\n#html:true\n#notetype:Basic\n#deck:%s\n", DECK_NAME);
 
     struct dirent *entry;
     char filepath[1024];
