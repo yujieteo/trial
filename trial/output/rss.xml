@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>From source code to blog post</title>
+	<link>https://www.teoyujie.org/042-furnish.html</link>
+	<guid>https://www.teoyujie.org/042-furnish.html</guid>
+	<dc:date>2025-10-10T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Blog post for the furnish.c utility to turn source code into blog post</description>
+</item>
+<item>
 	<title>Anki generation script</title>
 	<link>https://www.teoyujie.org/041-anki.html</link>
 	<guid>https://www.teoyujie.org/041-anki.html</guid>
