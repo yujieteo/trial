@@ -7,6 +7,52 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Reflections on search based on computer science</title>
+	<link>https://www.teoyujie.org/049-search-refl1.html</link>
+	<guid>https://www.teoyujie.org/049-search-refl1.html</guid>
+	<dc:date>2025-10-20T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description><![CDATA[<h1>Reflections on search based on computer science</h1>
+        <p><strong>Last modification on </strong> <time>2025-10-20</time></p>
+        <p>Search, summary approach: define objectives (Pareto optimal and scalarisation) and constraints, lookahead for problems, define time and memory bound, admissibility (never overestimating the true cost, if overestimate it make take a shortcut), for heuristic creation, strategy pruning, lookahead again and define pruning or bisection strategy, lastly define acceptable failure standards and repairability. Implementation: simulated annealing, high randomness explore first, use tabu to forbid revisiting, low randomness to explore later</p>
+<p>Search, A* optimality condition: evaluate all possible outcomes (large memory) without overestimating cost (admissible) and monotone (always move closer) to objective. Calculate cost now and add heuristic cost.</p>
+<p>Search, A* fixed time: update dynamics in real time, or look at fixed depth and repeat A* fixed depth search one step at a time.</p>
+<p>Search, pruning and beam search: check bounded many outcomes prune the worst proportion. Or use A*, prune the worst when memory is full. </p>
+<p>Search, tabu list: forbit returning to visited states unless it is really good.</p>
+<p>Search, simulated annealing: use high randomness at the beginning to escape local optima, lower randomness later.</p>
+<p>Search, bisection: either start from where you are and the goal to meet in the middle, or do binary search and cut half each time (Shannon entropy)</p>
+<p>Search, repairable improvement and constraint propagation: find a feasible solution first, repair later. Related, find a solution meeting the constraints, backtrack when violated. Key word: define objectives and constraints violations</p>
+<p>Search, lookahead: look ahead when you can to avoid problems.</p>
+<p>Search, memory and time tradeoffs: think about tradeoffs in memory (evalauting all possible outcomes), and time (opportunity cost of bad search, time needed).</p>
+<p>Search, multiple objective Pareto optimality and scalarisation: first step is always to identify outcomes, scalarisation means weigh your different outcomes to one outcome, Pareto optimality means I must make adjacent outcomes worse.</p>
+<p>Search, bitter lesson in scalability: make sure that all of the experience possible (not just data, scale to the human experience or general experience) at all scales (atomic, molecular, physical, metaphysical) is possible.</p>
+]]></description>
+</item>
+<item>
+	<title>Reflections on learning based on machine learning</title>
+	<link>https://www.teoyujie.org/048-learn-refl1.html</link>
+	<guid>https://www.teoyujie.org/048-learn-refl1.html</guid>
+	<dc:date>2025-10-20T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description><![CDATA[<h1>Reflections on learning based on machine learning</h1>
+        <p><strong>Last modification on </strong> <time>2025-10-20</time></p>
+        <p> Learning, practical: multiple question based adjectives for all concepts with history to be pruned, presented at all layers of abstractions with middle layers presented fast, first principles and big ideas slowed down with ideas leading to rabbit holes explicitly forgotten and added dimensionality when combining ideas in the middle. Present many many abstraction layers.</p>
+<p> Learning and attention, communication between all tokens: ideas used in language may be very far apart. Similarly, for difficult projects, direct communication between people who are distant in ideas and thinking is important.</p>
+<p> Learning and head specialisation: language have different types of relationships like syntax, semantics and so on. A single head produces one representation per token, multiple heads means multiple representations per token or basically for example, an idea as a noun, verb, adjective, reason, so on... An idea from Ravi Vakil, why is an idea; why is a moduli stack? So, try thinking about different representations of an idea.</p>
+<p> Learning, positional encodings and history: it is very easy to mix up the order of tokens or in general historical sequences of events to result in nonsensical arguments. Learn the dates and encode the history of the facts you learn.</p>
+<p> Learning, gradient divergence via repeated multiplication: recall that the chain rule is applied across very deep layers resulting in vanishing or exploding layers. So deriving ideas from proofs are very costly and may blow up. Furthermore, direct representations of simpler ideas can be buried under many layers of understanding and theory (if you try to derive from the basic idea to the big understandings). Therefore, the trick is to really normalise across all layers, or present all layers of abstraction and normalise. Residual connection allows each layer to directly be presented in the output. Need to have learning rate slowly increase. Focus on basic ideas and stick with them for a while until a maximum, then have decay to slow down again at highest level of understanding.</p>
+<p> Learning, masked models: one must anticipate missing (globally or adjacent), or future information. When learning, think about the gaps in your knowledge or how to prepare for what you might know in the future?</p>
+<p> Learning, attention weighting on relevance: focus on the most relevant information in the context of a single attention token.</p>
+<p> Learning, abstraction layers: lower layers have simple patterns, high layers combine them. These are layers of abstraction. </p>
+<p> Learning, dropout and overfitting: need to forget some ideas to prevent overfitting to certain phenomena that are oft repeated.</p>
+<p> Learning, sparse attention: each token need not attend to all tokens, but it must be possible to directly communicate with other tokens. That means while you can spend time with adjacent groups of ideas or people, make sure you must have the ability to talk to other groups/ideas/words regardless of how far they are. So the space is as big as possible globally, but sparsity means a lot of effort is spent locally.</p>
+<p> Learning, memory allocation: use less memory for forward and backward pass (aka deriving ideas from layer to layer).</p>
+<p> Learning, label smoothing: never have 100% confidence rate, use a 90% threshold to avoid being stuck (overfitting) and helps with noisy labels.</p>
+<p> Learning, higher dimensionality and multilayer perceptron design: you need more dimensionality to combine features. Start with ideas from two people (say thesis and antithesis), synthesis will require a lot more effort about 4 times as many to capture all the nuances of nonlinearity. </p>
+<p> Learning, redundancy and pruning: always consider that unimportant layers, neurons, heads can be pruned and refurbished in cases of limited memory. Example: adjectives for a concept that are not important.s</p>
+]]></description>
+</item>
+<item>
 	<title>Finds for the month of October (20 October 2025)</title>
 	<link>https://www.teoyujie.org/047-251020_finds.html</link>
 	<guid>https://www.teoyujie.org/047-251020_finds.html</guid>
