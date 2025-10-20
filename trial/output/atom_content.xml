@@ -7,6 +7,42 @@
 	<id>https://www.teoyujie.org/atom_content.xml</id>
 	<link rel="self" type="application/atom+xml" href="https://www.teoyujie.org/atom_content.xml" />
 <entry>
+	<title>Finds for the month of October (20 October 2025)</title>
+	<link rel="alternate" type="text/html" href="https://www.teoyujie.org/047-251020_finds.html" />
+	<id>https://www.teoyujie.org/047-251020_finds.html</id>
+	<updated>2025-10-20T00:00:00Z</updated>
+	<published>2025-10-20T00:00:00Z</published>
+	<author>
+		<name>yujie</name>
+		<uri>https://www.teoyujie.org</uri>
+	</author>
+	<summary>Finds for the month of October (20 October 2025)</summary>
+	<content type="html"><![CDATA[<h1>Finds for the month of October (20 October 2025)</h1>
+	<p><strong>Last modification on </strong> <time>2025-10-20</time></p>
+	<p>Karpathy's ChatGPT prompts: be straightforward and get to the point. I love learning, education, explanations and insights.</p>
+<p>Taleb on decay in tail risk hedging: convexity is equal decay, you need precision. The devil is in the heuristics.</p>
+<p>Taleb on reasons to buy options: if you have any reasons to buy an option, for speculation only buy options when you have no reason to buy them. If there is a reason to buy it, it will be priced in.</p>
+<p>Taleb on Schwartz distributions and generalised functions: theory of distributions can be simplified with an analogy to option pricing.</p>
+<p>Taleb on nonergodicity of selling: no option seller survives this is because selling is nonergodic.</p>
+<p>Tenobrus on performance impact of copies: performance impact on copies in C++ is very bad, removing full collection copies can improve a production codebase by 100%. Always turn copies into reference address.</p>
+<p><code>sizeof()</code> misconception: <code>sizeof(short)</code> is not the number of bits in a short.</p>
+<p>Wrong ladder wall analogy in reading papers: most important thing is why am I reading this paper and what am I trying to learn and how long should I spent learning this. Focusing the scope save times because you are optimising the quality and value for effort. Sort papers into title, authors and keywords | abstracts and references | papers with key proofs or techniques. | entire papers | papers I can reproduce myself.</p>
+<p>Math paper reading is nonlinear: one year to read one paper in intersection theory, constantly question, cross examine, take notes.</p>
+<p>Numbers every computer architecture designer should know: examples include L1 cache reference, branch misprediction, mutex lock and unlock, these are used for back of the envelope calculation for a system design.</p>
+<p>Topics in software development learn possibly: SQL, DB, Kafka/Redis/Docker, Linux, C, JS/HTML/CSS.</p>
+<p>Spec R[x] as C modulo conjugation: it is a good idea that for any field k, the closed points of the affine line over k in dimension n is in bijection with the Galois orbits of the algebraic closure of k. Example, real valued polynomials have pairs of conjugate roots or purely real roots subsumed as one root. So Spec R[x] is Spec C modulo conjugation.</p>
+<p>Neukrich perspective on number fields, by Qiaochu Yuan: rings of integers that are made algebraically closed have their singularities resolved.</p>
+<p>Schur's lemman, one line proof: every endomorphism has an eigenvalue over the field and eigenspaces as subrepresentations.</p>
+<p>Poonen's analogies in number fields and function fields: deep analogy here for Arakelov theory, look for the table by him.</p>
+<p>George Hotz on compilers: compilers are not good enough to match English coding. Prompts are just bad abstractions.</p>
+<p>System design algorithms: surprise! geohash, quadtree, consistent hashing load balancer, rate limiter leaky token buckets, tries, rsync, Raft, bloom filter, Merkle tree, hyperloglog, count-min sketch, hierarchial timing wheels job scheduler, operational transformation for collaborative editing.</p>
+<p>Focusing and time: focus more of your time on what you want to see more of.
+</p>
+<p>Information abundance leads to distortion: under 30 prematurely old worried about savings career and FIRE, over 50 is desperately young. Missed experiences.</p>
+<p>Karpathy on blog posts and slides: don't write blogs, don't do slides, build the code, arrange it, get it to work.</p>
+]]></content>
+</entry>
+<entry>
 	<title>Stochastic gradient descent as implemented in pytorch</title>
 	<link rel="alternate" type="text/html" href="https://www.teoyujie.org/046-sgd.html" />
 	<id>https://www.teoyujie.org/046-sgd.html</id>
@@ -574,6 +610,7 @@ GC_collect(void)
 <p> 7. brew install --cask firefox </p>
 <p> 8. Set up the pipeline: C code to html to blog work flow. I use saait static page generator.</p>
 <p> 9. Set up custom mail to web domain. </p>
+<p> 10. brew install --casks mactex</p>
 ]]></content>
 </entry>
 <entry>

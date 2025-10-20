@@ -1,3 +1,4 @@
+2025-10-20T00:00:00Z	Finds for the month of October (20 October 2025): https://www.teoyujie.org/047-251020_finds.html
 2025-10-10T00:00:00Z	Stochastic gradient descent as implemented in pytorch: https://www.teoyujie.org/046-sgd.html
 2025-10-10T00:00:00Z	Simple naive mark-sweep garbage collector: https://www.teoyujie.org/045-gc_mp.html
 2025-10-10T00:00:00Z	Macintosh set up: https://www.teoyujie.org/044-macintosh.html

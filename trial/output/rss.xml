@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Finds for the month of October (20 October 2025)</title>
+	<link>https://www.teoyujie.org/047-251020_finds.html</link>
+	<guid>https://www.teoyujie.org/047-251020_finds.html</guid>
+	<dc:date>2025-10-20T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Finds for the month of October (20 October 2025)</description>
+</item>
+<item>
 	<title>Stochastic gradient descent as implemented in pytorch</title>
 	<link>https://www.teoyujie.org/046-sgd.html</link>
 	<guid>https://www.teoyujie.org/046-sgd.html</guid>

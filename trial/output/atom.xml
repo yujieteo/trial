@@ -7,6 +7,18 @@
 	<id>https://www.teoyujie.org/atom.xml</id>
 	<link rel="self" type="application/atom+xml" href="https://www.teoyujie.org/atom.xml" />
 <entry>
+	<title>Finds for the month of October (20 October 2025)</title>
+	<link rel="alternate" type="text/html" href="https://www.teoyujie.org/047-251020_finds.html" />
+	<id>https://www.teoyujie.org/047-251020_finds.html</id>
+	<updated>2025-10-20T00:00:00Z</updated>
+	<published>2025-10-20T00:00:00Z</published>
+	<author>
+		<name>yujie</name>
+		<uri>https://www.teoyujie.org</uri>
+	</author>
+	<summary>Finds for the month of October (20 October 2025)</summary>
+</entry>
+<entry>
 	<title>Stochastic gradient descent as implemented in pytorch</title>
 	<link rel="alternate" type="text/html" href="https://www.teoyujie.org/046-sgd.html" />
 	<id>https://www.teoyujie.org/046-sgd.html</id>
