@@ -1,3 +1,4 @@
+2025-10-28T00:00:00Z	Quickstart for SSH on GitHub and private servers.: https://www.teoyujie.org/051-ssh-guide.html
 2025-10-28T00:00:00Z	Etale homotopy types: https://www.teoyujie.org/050-etale-homotopy-type.html
 2025-10-20T00:00:00Z	Reflections on search based on computer science: https://www.teoyujie.org/049-search-refl1.html
 2025-10-20T00:00:00Z	Reflections on learning based on machine learning: https://www.teoyujie.org/048-learn-refl1.html

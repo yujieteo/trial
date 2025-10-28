@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Quickstart for SSH on GitHub and private servers.</title>
+	<link>https://www.teoyujie.org/051-ssh-guide.html</link>
+	<guid>https://www.teoyujie.org/051-ssh-guide.html</guid>
+	<dc:date>2025-10-28T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Quickstart for SSH on servers like GitHub.</description>
+</item>
+<item>
 	<title>Etale homotopy types</title>
 	<link>https://www.teoyujie.org/050-etale-homotopy-type.html</link>
 	<guid>https://www.teoyujie.org/050-etale-homotopy-type.html</guid>
