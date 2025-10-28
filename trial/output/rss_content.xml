@@ -7,6 +7,22 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Etale homotopy types</title>
+	<link>https://www.teoyujie.org/050-etale-homotopy-type.html</link>
+	<guid>https://www.teoyujie.org/050-etale-homotopy-type.html</guid>
+	<dc:date>2025-10-28T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description><![CDATA[<h1>Etale homotopy types</h1>
+        <p><strong>Last modification on </strong> <time>2025-10-28</time></p>
+        <p> Homotopy type, description of how higher homotopies behave: for a topological space, it describes how higher homotopies behave. </p>
+<p> Etale homotopy, defining homotopy types: topological spaces have a homotopy type. Algebraic variety has no natural topology unless field is complex, using complex topology. How to define homotopy types? One can use etale site (category + etale covering maps) instead of open sets (topological space that has category and open covers mixed together). </p>
+<p> Etale site, category of etale morphisms: objects are etale morphisms, covers are etale families that jointly subject onto X. This is a Grothendieck topos since by definition it is a category of sheaves of sets on the etale site. </p>
+<p> Pro-homotopy type, definition of a topos: used to define homotopy types by approximating it with simplicial sets and then taking its homotopy type. </p>
+<p> Etale homotopy type, Artin and Mazur’s definition: pro-homotopy type associated with the etale topos that is a Grothendieck topos since it is a category of sheaves of sets on a site. The etale homotopy type of X is a pro-object in the homotopy category of simplicial sets, such that for each finite etale cover, one associates a simplicial set of coverings called the Cech nerves, then take the systems of all these nerves orders by refinement. Formally, X_et := pro-hocolim_{U to X) N_* (U/X) where N_* (U/X) is the simplicial nerve of the covering U to X. </p>
+<p> Etale homotopy type, Friedlander: rigid homotopy type lives as a pro-simplicial set, behaves well under base change and morphisms. </p>
+]]></description>
+</item>
+<item>
 	<title>Reflections on search based on computer science</title>
 	<link>https://www.teoyujie.org/049-search-refl1.html</link>
 	<guid>https://www.teoyujie.org/049-search-refl1.html</guid>

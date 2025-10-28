@@ -7,6 +7,14 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Etale homotopy types</title>
+	<link>https://www.teoyujie.org/050-etale-homotopy-type.html</link>
+	<guid>https://www.teoyujie.org/050-etale-homotopy-type.html</guid>
+	<dc:date>2025-10-28T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Explanations of etale homotopy types in algebraic geometry.</description>
+</item>
+<item>
 	<title>Reflections on search based on computer science</title>
 	<link>https://www.teoyujie.org/049-search-refl1.html</link>
 	<guid>https://www.teoyujie.org/049-search-refl1.html</guid>
