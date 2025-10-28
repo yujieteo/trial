@@ -1396,6 +1396,32 @@ Operator, derivative operator D is an operator that takes a function and gives i
 Operator, curved space, like a sphere, the concept of a derivative is generalized. The Laplacian operator on a sphere takes a function on the sphere and gives another function. The operator is the rule for "differentiation" on a curved space	An operator is a differential operator on a manifold, like the Laplacian on a sphere.
 Operator, stochastic process like a random walk, the generator is an operator that describes the "infinitesimal" change in the process. For a simple random walk, the generator is the discrete Laplacian. It's the "engine" that produces the random motion	An operator is the generator of a stochastic process.
 Operator, representation of a group is a way of "realizing" the group's abstract elements as operators on a vector space. For example, the group of rotations in 3D can be represented by operators (matrices) that act on vectors in R3. The operator is the "physical manifestation" of an abstract group element	An operator is a representation of a group.
+SSH for Github, Step 1 — Check for existing SSH keys	<p>Run <code>ls -al ~/.ssh</code>. If you see files like <code>id_ed25519</code> and <code>id_ed25519.pub</code> you already have a key pair; the <code>.pub</code> file is the public key. If not, generate a key pair in the next step.
+SSH for Github, Step 2 — Generate an Ed25519 SSH key pair	<p>Run <code>ssh-keygen -t ed25519 -C "your_email@example.com
+"</code>. Accept the default file path by pressing Enter (creates <code>~/.ssh/id_ed25519</code> and <code>~/.ssh/id_ed25519.pub</code>). Optionally add a passphrase for extra security. Ed25519 is modern, short, and secure.
+SSH for Github, Step 3 — Start the SSH agent and add your private key	<p>Start the agent: <code>eval "$(ssh-agent -s)"</code>. Then add your key: <code>ssh-add ~/.ssh/id_ed25519</code>. The agent holds the unlocked key in memory so you don't retype the passphrase each SSH session.
+SSH for Github, Step 4 — Copy the public key to GitHub	<p>Show the public key with <code>cat ~/.ssh/id_ed25519.pub</code> and copy the entire single-line string starting with <code>ssh-ed25519</code>. In GitHub go to <strong>Settings → SSH and GPG keys → New SSH key</strong>, paste the key, give it a descriptive title, and save. This tells GitHub to trust signatures from your private key.
+SSH for Github, Step 5 — Test GitHub SSH authentication	<p>Run <code>ssh -T git@github.com
+</code>. Expected reply: <em>Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.</em> That confirms authentication is working.
+SSH for Github, Step 6 — Use SSH URLs for Git operations	<p>Clone repos with the SSH form: <code>git clone git@github.com
+:username/repo.git</code>. To switch an existing repo from HTTPS to SSH: <code>git remote set-url origin git@github.com
+:username/repo.git</code>. This avoids HTTPS credential prompts.
+SSH for Github, Step 7 — Useful GitHub SSH troubleshooting checklist	<ol><li><p>Ensure the public key on GitHub exactly matches <code>~/.ssh/id_ed25519.pub</code>.
+Verbose SSH output	<code>ssh -vT git@github.com
+</code> shows which key is used and any errors.
+File permissions	<code>chmod 700 ~/.ssh</code> and <code>chmod 600 ~/.ssh/id_ed25519</code>.
+SSH for Github, Key-points summary — GitHub SSH	<ul><li><p>Public key on GitHub = lock; private key on your machine = key.
+SSH for MacBook, Step 1 — Goal & model	<p>Goal: set up SSH from your MacBook to your own server so you can log in securely without typing a password. Model: generate a key pair locally; put the public key in the server user's <code>~/.ssh/authorized_keys</code> with correct permissions.
+SSH for MacBook, Step 2 — Check for existing keys on your Mac	<p>Run <code>ls -al ~/.ssh</code>. If keys exist (e.g. <code>id_ed25519</code> and <code>id_ed25519.pub</code>) you can reuse them; otherwise generate a new key in the next step.
+SSH for MacBook, Step 3 — Generate an Ed25519 key pair on the Mac	<p>Run <code>ssh-keygen -t ed25519 -C "yourname@macbook"</code>. Accept default path (<code>~/.ssh/id_ed25519</code>). Optionally add a passphrase. This produces a private key (<code>id_ed25519</code>) and public key (<code>id_ed25519.pub</code>).
+SSH for MacBook, Step 4 — Copy the public key to the server (easy method)	<p>If password-based SSH is enabled on the server, run <code>ssh-copy-id username@server_ip</code>. This appends your public key to the server's <code>~/.ssh/authorized_keys</code> and sets correct permissions.
+SSH for MacBook, Step 5 — Copy the public key to the server (manual fallback)	<p>If <code>ssh-copy-id</code> is not available, run:
+SSH for MacBook, Step 6 — Test the SSH login	<p>Now run <code>ssh username@server_ip</code>. If keys and permissions are correct you will log in without a password. If it still asks for a password, check <code>~/.ssh/authorized_keys</code> on the server contains the exact public-key line and permissions (<code>700</code> for <code>~/.ssh</code>, <code>600</code> for <code>authorized_keys</code>).
+SSH for MacBook, Step 7 — Debugging remote key problems	<ol><li><p>On the client, run <code>ssh -v username@server_ip</code> to see which key is offered and server responses.
+SSH for MacBook, Step 8 — Optional	Create an SSH config entry for convenience: <p>Edit <code>~/.ssh/config</code> (create if missing) and add:
+SSH for MacBook, Step 9 — Optional	Disable password authentication (hardening): <p>After confirming key logins work, on the server edit <code>/etc/ssh/sshd_config</code> and set <code>PasswordAuthentication no</code> and <code>ChallengeResponseAuthentication no</code>, then restart SSH (<code>sudo systemctl restart sshd</code>). This prevents password-based logins; keep a fallback access method (console, cloud provider serial) in case keys fail.
+SSH for MacBook, Key-points summary — Mac → Server SSH	<ul><li><p>Private key stays on Mac; public key goes in the server's <code>~/.ssh/authorized_keys</code>.
+Correct file permissions are mandatory	<code>~/.ssh</code> = <code>700</code>, <code>authorized_keys</code> = <code>600</code>.
 The original source code is written <a href="https	//www.maplant.com/2020-04-25-Writing-a-Simple-Garbage-Collector-in-C.html">here. </a>
 The author said the code is not necessarily correct.
 Nevertheless, we will work with what we have. This is a bit out of my depth, but this is a start to roughly know what is important.
