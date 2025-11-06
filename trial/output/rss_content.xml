@@ -7,6 +7,57 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Finds for the month of November (06 November 2025)5</title>
+	<link>https://www.teoyujie.org/052-251106_finds.html</link>
+	<guid>https://www.teoyujie.org/052-251106_finds.html</guid>
+	<dc:date>2025-11-06T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description><![CDATA[<h1>Finds for the month of November (06 November 2025)5</h1>
+        <p><strong>Last modification on </strong> <time>2025-11-06</time></p>
+        <p>Vibe coding, refactoring: vibe coding is very good at refactoring code.</p>
+<p>Vibe coding, plain text: plain text in the directories and in the comments helps a lot with the context for the input.</p>
+<p>Vibe coding, comments: in the age of vibe coding, never regretting having too many comments.</p>
+<p>Google internal tools, open source: learn how to use tools externally see <a href="https://github.com/jhuangtw/xg2xg?tab=readme-ov-file">here.</a></p>
+<p>Facebook internal tools, open source: learn how to use tools externally see <a href="https://github.com/greko6/xfb2xfb?tab=readme-ov-file">here.</a></p>
+<p>Writing assembly by hand, Ultier: learn here <a href="https://gaultier.github.io/blog/x11_x64.html">at this link.</a</p>
+<p>Notes from a manager/CEO, calendar as other's calendar: your calendar becomes everyone else's calendar, every gap gets filled.</p>
+<p>Notes from a manager, hardest conversations: they start with do you have a second?</p>
+<p>Notes from a maanger, you can no longer blame management: you can no longer blame management since you are not the maangement.</p>
+<p>Notes from a maanger, can only talk to cofounder: there is no one to complaint o except your cofounder.</p>
+<p>Notes from a maanger, 996: you have to 996, no one else.</p>
+<p>Abstraction, no leaking: a design flaw where an abstraction that is meant to simplify fails to completely hide complexity. Abstractions will need orthogonality.</p>
+<p>Abstraction, reduction in dependencies: dependencies lead to more leaky abstraction.</p>
+<p>Abstraction, few ideas and cleverly combine: few ideas to cleverly combine.</p>
+<p>Abstraction, short code to read and hack on, you need to write code that is short and easy to hack on.</p>
+<p>Abstraction, well tested and easy to reason about: code that is well tested and easy to reason about is a good abstraction.</p>
+<p>Anomaly detection model, underrated: (1) local outlier factor; (2) isolation forest; (3) robust random cut forest.</p>
+<p>Personality due to upbringing: a large chunk of your behaviors are not natural for you, worked very well for your parents, or cultivated to deal with dysfunction in your upbringing, discovering who you are and what you actually value.</p>
+<p>Stupidity, priorities of stupid people: average people seems really stupid since their priorities are different.</p>
+<p>Musk on 10 year plans: how can I accomplish by 10 year plans in 6 months, you will probably fail but you will be far ahead of the person who simply accepted that it will take 10 years.</p>
+<p>Blaming yourself, and others: belief that other people would be happier if they were left alone.</p>
+<p>Biology as technology: technology to build humans is. Only now are we close with our stack. Human DNA is 6 GB. That’s a DVD. In 1970, you couldn’t store 6GB. Today, I can copy it in seconds on my M1 SSD. That’s actually faster than nature. Biology is non-toxic. Biology is efficient. Biology is beautiful. Biology is technology. Biology is not centralized. Biology is not alien. Biology is not rectangular. Biology is not industrial.</p>
+<p>Raising children and AI: A child raised wrong will grow up wrong. And how are we doing right now as a society raising our children, when half the kids are born out of wedlock, up from 5% 70 years ago. Who thinks we can raise an AI?</p>
+<p>Yudkowsky’s minimum IQ: "The minimum IQ required to destroy the world drops by one point every 18 months."</p>
+<p>Wozniak’s Test: machine is required to enter an average American home and figure out how to make coffee. Harder than self driving cars.</p>
+<p>Keller’s three fundamental computing paradigms: CPU: add, multiply, load, store, compare, branch (nothing can be known about anything), GPU: add, multiply, load, store (when things happen is known, but the addresses aren’t) DSP: add, multiply (everything is known except the data)</p>
+<p>Power costs and data locality: the key is data locality. Having to move data costs power. Instruction set and compiler, and while it’s complex, that complexity is only up front to compile the model. After that, it’s way simpler (aka, less power and less issues) at runtime than CUDA and PyTorch. The only questionable choice is why not take this further? The interconnects between the chips cost power.</p>
+<p>Problem of representative democracy, as a vicarious desire: Representative democracy is to get you to vicariously identify with this desire. And this gets a larger group of people, perhaps the most vocal in supporting a candidate, but still nothing near the majority. This is the most evil trick the regime uses. You no longer believe that things will get better, but you are forced to be involved because you fear things will get worse. You are tricked into supporting state power because you fear other state power. Sometimes foreign, sometimes domestic.</p>
+<p>Process in government, and the bridge: goal is not to build the bridge, the goal is to make sure the process is followed to build the bridge. I didn’t really understand this until recently, but this is also how most large organizations work.</p>
+<p>Jim Keller on Chaos: by continually creating chaos, process is incapable of forming, and everyone is forced to work only toward goal.</p>
+<p>Lying to yourself: "I would rather lose than sell out. If you lie to the world you lie to yourself and one day you can no longer tell what’s true or not. I would live under a bridge and eat out of dumpsters if I got to know the truth."</p>
+<p>Landauer’s limit, evolution brutal optimisation: makes sense, if there’s one thing that evolution brutally optimized for it is efficiency.</p>
+<p>Sutton’s quotes on arbitrary scaling or the Bitter Lesson: One thing that should be learned from the bitter lesson is the great power of general purpose methods, of methods that continue to scale with increased computation even as the available computation becomes very great. The two methods that seem to scale arbitrarily in this way are search and learning.</p>
+<p>Radio building and initial conditions: either look at initial conditions of the Italian man or reverse engineering and taking apart each piece.</p>
+<p>Paul Christiano on AI and animal breeding: creation of AI will look a lot less like a visit from an alien produced by natural selection (where you are most certainly dead), and a lot more like animal breeding. </p>
+<p>The 100 marshmallow test: instead of a single person, imagine 100 people in a room. One marshmallow is placed on a table. If everyone can leave it alone for 15 minutes, everyone gets 2 marshmallows. But if just one person eats it, everyone gets nothing (except for the guy who ate a marshmallow, he got that marshmallow).</p>
+<p>Self reflections on prediction: Am I the same way? I try extremely hard to constantly test myself, if my predictions are wrong it’s clear I don’t understand. If I can’t build it I don’t understand. I’ll frequently read comments saying I don’t understand, but when I engage with these people they can’t explain what my world model gets wrong. A different meta world model? Or are they just idiots? To anyone who wants to supersede rationality, you better understand how to steelman every rationality argument.</p>
+<p>Random sprinting and engaging with life: I was told recently I’m not engaged in my life, and it’s pretty true. Until I see a solution to this problem, even a sketch of a solution, what’s the point? Why sprint if you aren’t sure where you are going?</p>
+<p>Value profit convexity: The old days of the Internet were this goldmine. The Internet delivered huge value but no profit, and that’s why it was good. Suddenly we had all these new powers.</p>
+<p>Criticism of capital deployment: Communism is dumb cause it goes to the poor (who routinely demonstrate that they poorly deploy capital). Capitalism is dumb cause it goes to the rent-seekers (who frequently deploy capital to increase or maintain their moat). Acceleration is the way.</p>
+<p>Chris McCandless, and the ideal of explorers: explorer, but being born in 1968 meant that the world was already all explored. His clever solution, throw away the map. But that didn’t make him an explorer, it made him an idiot who died 5 miles from a bridge that would have saved his life.</p>
+]]></description>
+</item>
+<item>
 	<title>Quickstart for SSH on GitHub and private servers.</title>
 	<link>https://www.teoyujie.org/051-ssh-guide.html</link>
 	<guid>https://www.teoyujie.org/051-ssh-guide.html</guid>
