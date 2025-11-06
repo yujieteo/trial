@@ -2265,6 +2265,9 @@ int main(int argc, char *argv[]) {
 <p> Resolution, by means of simplicies onto a circle:  topological space of a circle can be resolved by a sequence of simplicial complexes, where the first is a single loop, the next is a 2-simplex with an edge glued to it, and so on. This provides a way to approximate a curved complex surface with flat triangles, making it easier to compute its properties. </p>
 <p> Classifying space, topological monoid of n by n matrices by Grassmannian:  monoid of n×n matrices, the classifying space is the Grassmannian manifold of n-planes in an infinite-dimensional space. The geometric properties of the Grassmannian are a reflection of the algebraic properties of the matrix monoid. </p>
 <p> Classifying space, cohomology group H^2(X, G) classifying principal G-bundles, or gerbes:  cohomology group H2(X,G) can be used to classify principal G-bundles, which are also known as gerbes. A gerbe is a "twisted" object. The classifying stack of a group G is a geometric object that captures all the possible "twists" for G-bundles, which is a geometric manifestation of the second cohomology group. </p>
+<p> Lawvere-Tierney topology, double negation: turns it into classical logic, this means statement is equivalent to double negation </p>
+<p> Boolean topos, double negation is identity: recall that if internal logic is classical and not intuitionistic. Intuitionistic logic is about local properties extending to global ones.
+</p>
 ]]></description>
 </item>
 <item>
