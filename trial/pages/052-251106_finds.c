@@ -3,7 +3,7 @@
 /*Vibe coding, comments: in the age of vibe coding, never regretting having too many comments.*/
 /*Google internal tools, open source: learn how to use tools externally see <a href="https://github.com/jhuangtw/xg2xg?tab=readme-ov-file">here.</a>*/
 /*Facebook internal tools, open source: learn how to use tools externally see <a href="https://github.com/greko6/xfb2xfb?tab=readme-ov-file">here.</a>*/
-/*Writing assembly by hand, Ultier: learn here <a href="https://gaultier.github.io/blog/x11_x64.html">at this link.</a*/
+/*Writing assembly by hand, Ultier: learn here <a href="https://gaultier.github.io/blog/x11_x64.html">at this link.</a>*/
 /*Notes from a manager/CEO, calendar as other's calendar: your calendar becomes everyone else's calendar, every gap gets filled.*/
 /*Notes from a manager, hardest conversations: they start with do you have a second?*/
 /*Notes from a maanger, you can no longer blame management: you can no longer blame management since you are not the maangement.*/
