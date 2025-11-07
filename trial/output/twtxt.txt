@@ -1,3 +1,4 @@
+2025-11-07T00:00:00Z	Notes from Mura Yakerson and Denis Nardin on reading.: https://www.teoyujie.org/053-mura_reading.html
 2025-11-06T00:00:00Z	Finds for the month of November (06 November 2025)5: https://www.teoyujie.org/052-251106_finds.html
 2025-10-28T00:00:00Z	Quickstart for SSH on GitHub and private servers.: https://www.teoyujie.org/051-ssh-guide.html
 2025-10-28T00:00:00Z	Etale homotopy types: https://www.teoyujie.org/050-etale-homotopy-type.html
