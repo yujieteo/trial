@@ -1,6 +1,5 @@
 trials
 -------
-
 Trials, numerical experiments: the purpose of this is to write up code `.c` orthogonally to be converted into `.html`, and then into blog posts. I have decided to write most of the numerical code in `.c` for portability and convenience.
 
 `furnish`, turns C code snippets into .html articles: 
