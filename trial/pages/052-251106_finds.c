@@ -6,9 +6,9 @@
 /*Writing assembly by hand, Ultier: learn here <a href="https://gaultier.github.io/blog/x11_x64.html">at this link.</a>*/
 /*Notes from a manager/CEO, calendar as other's calendar: your calendar becomes everyone else's calendar, every gap gets filled.*/
 /*Notes from a manager, hardest conversations: they start with do you have a second?*/
-/*Notes from a maanger, you can no longer blame management: you can no longer blame management since you are not the maangement.*/
-/*Notes from a maanger, can only talk to cofounder: there is no one to complaint o except your cofounder.*/
-/*Notes from a maanger, 996: you have to 996, no one else.*/
+/*Notes from a manager, you can no longer blame management: you can no longer blame management since you are not the maangement.*/
+/*Notes from a manager, can only talk to cofounder: there is no one to complaint o except your cofounder.*/
+/*Notes from a manager, 996: you have to 996, no one else.*/
 /*Abstraction, no leaking: a design flaw where an abstraction that is meant to simplify fails to completely hide complexity. Abstractions will need orthogonality.*/
 /*Abstraction, reduction in dependencies: dependencies lead to more leaky abstraction.*/
 /*Abstraction, few ideas and cleverly combine: few ideas to cleverly combine.*/
@@ -39,3 +39,4 @@
 /*Value profit convexity: The old days of the Internet were this goldmine. The Internet delivered huge value but no profit, and that’s why it was good. Suddenly we had all these new powers.*/
 /*Criticism of capital deployment: Communism is dumb cause it goes to the poor (who routinely demonstrate that they poorly deploy capital). Capitalism is dumb cause it goes to the rent-seekers (who frequently deploy capital to increase or maintain their moat). Acceleration is the way.*/
 /*Chris McCandless, and the ideal of explorers: explorer, but being born in 1968 meant that the world was already all explored. His clever solution, throw away the map. But that didn’t make him an explorer, it made him an idiot who died 5 miles from a bridge that would have saved his life.*/
+/*Reading papers, Denis Nardin: do not try to read in order, (1) statements at least in their opinion are the main results, try to understand the statements, vague idea of definitions; (2) go backwards, what is the MAIN STEP/DEFINITIONS to try to learn and understand the statement of this STEP or TWO STEP or two cases what they consist of and how they are different, and then go different; (3) stop when you run out of paper or interest in things; (4) do not do the main proof.*/
