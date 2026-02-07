@@ -1,1 +1,0 @@
-/* Laziness in Haskell, weak head normal form:  the data structure is fully determined upon evaluation. Placeholders allow for nonstrict evaluations, with as little evaluation done as necesssary. This is very similar to what tinygrad has done. Therefore, one can define and initialise infinite data structures in Haskell. */
