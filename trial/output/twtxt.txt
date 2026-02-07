@@ -1,3 +1,10 @@
+2025-11-08T00:00:00Z	Notes on OODA and slouching: https://www.teoyujie.org/058-ooda.html
+2025-11-08T00:00:00Z	Waldenponding and information flows: https://www.teoyujie.org/057-waldenponding.html
+2025-11-08T00:00:00Z	What I have learnt and appreciated about other people: https://www.teoyujie.org/056-learnfromothers.html
+2025-11-08T00:00:00Z	My concerns on representing ideas well: https://www.teoyujie.org/055-repideas.html
+2025-11-08T00:00:00Z	Some history of science and ideas: https://www.teoyujie.org/054-history-of-science.html
+2025-11-07T00:00:00Z	Notes from Mura Yakerson and Denis Nardin on reading.: https://www.teoyujie.org/053-mura_reading.html
+2025-11-06T00:00:00Z	Finds for the month of November (06 November 2025)5: https://www.teoyujie.org/052-251106_finds.html
 2025-10-28T00:00:00Z	Quickstart for SSH on GitHub and private servers.: https://www.teoyujie.org/051-ssh-guide.html
 2025-10-28T00:00:00Z	Etale homotopy types: https://www.teoyujie.org/050-etale-homotopy-type.html
 2025-10-20T00:00:00Z	Reflections on search based on computer science: https://www.teoyujie.org/049-search-refl1.html

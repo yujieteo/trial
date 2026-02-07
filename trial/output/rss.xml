@@ -7,6 +7,62 @@
 	<description>blog about math</description>
 	<link>https://www.teoyujie.org</link>
 <item>
+	<title>Notes on OODA and slouching</title>
+	<link>https://www.teoyujie.org/058-ooda.html</link>
+	<guid>https://www.teoyujie.org/058-ooda.html</guid>
+	<dc:date>2025-11-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>OODA notes</description>
+</item>
+<item>
+	<title>Waldenponding and information flows</title>
+	<link>https://www.teoyujie.org/057-waldenponding.html</link>
+	<guid>https://www.teoyujie.org/057-waldenponding.html</guid>
+	<dc:date>2025-11-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Clarifying my own expected information flows</description>
+</item>
+<item>
+	<title>What I have learnt and appreciated about other people</title>
+	<link>https://www.teoyujie.org/056-learnfromothers.html</link>
+	<guid>https://www.teoyujie.org/056-learnfromothers.html</guid>
+	<dc:date>2025-11-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>An ongoing project where I flesh out in detail what I have learnt from other people.</description>
+</item>
+<item>
+	<title>My concerns on representing ideas well</title>
+	<link>https://www.teoyujie.org/055-repideas.html</link>
+	<guid>https://www.teoyujie.org/055-repideas.html</guid>
+	<dc:date>2025-11-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>I address my concerns on representing ideas effectively.</description>
+</item>
+<item>
+	<title>Some history of science and ideas</title>
+	<link>https://www.teoyujie.org/054-history-of-science.html</link>
+	<guid>https://www.teoyujie.org/054-history-of-science.html</guid>
+	<dc:date>2025-11-08T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Blog post for 054-history-of-science.html</description>
+</item>
+<item>
+	<title>Notes from Mura Yakerson and Denis Nardin on reading.</title>
+	<link>https://www.teoyujie.org/053-mura_reading.html</link>
+	<guid>https://www.teoyujie.org/053-mura_reading.html</guid>
+	<dc:date>2025-11-07T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Notes from Mura Yakerson and Denis Nardin on reading.</description>
+</item>
+<item>
+	<title>Finds for the month of November (06 November 2025)5</title>
+	<link>https://www.teoyujie.org/052-251106_finds.html</link>
+	<guid>https://www.teoyujie.org/052-251106_finds.html</guid>
+	<dc:date>2025-11-06T00:00:00Z</dc:date>
+	<author>yujie</author>
+	<description>Blog post for 052-251106_finds.html</description>
+</item>
+<item>
 	<title>Quickstart for SSH on GitHub and private servers.</title>
 	<link>https://www.teoyujie.org/051-ssh-guide.html</link>
 	<guid>https://www.teoyujie.org/051-ssh-guide.html</guid>
