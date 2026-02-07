@@ -1,7 +1,5 @@
 .vscode/
 *.o
-trial/output/*.html
-trial/pages/*.html
 furnish
 .DS_Store
 .exe
